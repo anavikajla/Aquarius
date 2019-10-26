@@ -1,0 +1,132 @@
+body{
+	font-family:Helvetica Neue, Helvetica, Arial, sans-serif;
+  	font-style: normal;
+	height:auto;
+	overflow: auto;
+}
+
+.navbar{
+	/*width:85%;
+	margin-top:5em;*/
+	height:1.2em;
+	text-align:center;
+	/*margin:auto;*/
+	font-size:1em;
+}
+
+.logo{
+	max-width:100%;
+	width:auto;
+	height:auto;
+}
+
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+ 	padding-right: 15px;
+  	padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+
+.carousel{
+	width:100%;
+	margin:auto;
+}
+
+.carousel-inner {
+    max-height: 450px;
+}
+
+.carousel-inner .item {
+    overflow: hidden;
+	max-height: 100%;
+    max-width: 100%;
+}
+
+.carousel-inner .item img {
+    width:100%;
+	margin:auto;
+    min-height: 100%;
+    max-height: none;
+}
+
+.item .carousel-caption{
+	font-size:3em;
+	color:white;
+}
+
+.description {
+	margin:auto;
+	width:85%;
+	height:auto;
+	margin-top:2em;
+}
+
+.description p{
+	font-size:1em;
+}
+
+.featurette-divider {
+  margin: auto;
+  margin-top:30px; /* Space out the Bootstrap <hr> more */
+  width:75%;
+
+}
+
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+  font-size: 45px;
+  padding-left:2em;
+  padding-bottom:0.3em;
+}
+
+.row{
+	margin:0px;
+	padding:0px;
+}
+.image{
+	width:30em;
+	height:30em;
+	
+}
+
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.container-fluid-sector {
+  width: 85%;
+  max-width: 100%;
+  padding: 0 15px;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
